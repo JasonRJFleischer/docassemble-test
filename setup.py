@@ -43,13 +43,13 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.test',
-      version='0.0.1',
-      description=('A docassemble extension.'),
-      long_description='# docassemble.test\n\nA docassemble extension.\n\n## Author\n\njrjflei@gmail.com\n\n',
+      version='',
+      description=(''),
+      long_description='# docassemble.test\n\n\n\n## Author\n\njrjflei@gmail.com\n\n',
       long_description_content_type='text/markdown',
       author='',
       author_email='jrjflei@gmail.com',
-      license='The MIT License (MIT)',
+      license='',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
